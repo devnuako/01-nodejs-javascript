@@ -54,6 +54,7 @@ const loginService = async (email1, password) => {
                     }
                 )
                 return {
+                    EC: 0,
                     access_token,
                     user: {
                         email: user.email,
